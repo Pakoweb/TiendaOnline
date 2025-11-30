@@ -1,5 +1,5 @@
 // login.js
-// -------------------------
+
 // Controla el formulario de login.
 // Envía las credenciales al backend (login.php),
 // y si son correctas guarda el token y la tienda en localStorage.

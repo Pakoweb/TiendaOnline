@@ -1,9 +1,8 @@
 <?php
-// productos_vistos.php
-// --------------
-// Endpoint para Productos Vistos Recientemente.
-// El enunciado indica que la lista de productos vistos se almacena en el localStorage,
-// así que aquí simplemente validamos el token y devolvemos una respuesta básica.
+
+
+// Endpoint para Productos Vistos Recientemente.Se guardan en local storage
+
 
 require_once "config.php";
 

@@ -4,7 +4,7 @@
 // - Comprueba autenticación.
 // - Obtiene el id de la URL (?id=).
 // - Busca el producto en la tienda guardada en localStorage.
-// - Muestra nombre, precio, imagen y descripción (no el id).
+// - Muestra nombre, precio, imagen y descripción.
 // - Registra el producto como "visto" en localStorage.
 // - Permite añadir el producto al carrito.
 
@@ -33,7 +33,7 @@ function initProduct() {
     // Registramos este producto como "visto" en localStorage
     registrarProductoVisto(producto.id);
 
-    // Pintamos la ficha del producto (sin mostrar el id)
+    // Pintamos la ficha del producto
     cont.innerHTML = `
         <div class="card product-card-detail p-3">
             <div class="row g-3">
