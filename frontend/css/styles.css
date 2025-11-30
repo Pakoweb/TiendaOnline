@@ -1,0 +1,74 @@
+/* styles.css
+   -------------------------
+   CSS propio para mejorar el diseño:
+   - Fondo de login
+   - Estilo de header
+   - Sombras y hover en cards
+   - Ajustes visuales generales
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Fondo degradado para la página de login */
+body.bg {
+    background: linear-gradient(135deg,#19bc3f, #44f067);
+}
+
+/* Header superior */
+.header {
+    background: linear-gradient(90deg, #19bc3f, #44f067);
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Enlaces del header */
+.header nav a {
+    color: #e0f2fe;
+    text-decoration: none;
+    margin-right: 0.75rem;
+}
+
+.header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilo general para cards (se suma a las clases de Bootstrap) */
+.card {
+    border-radius: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.25);
+}
+
+/* Producto detalle */
+.product-card-detail img {
+    border-radius: 1rem;
+}
+
+/* Ajuste de texto en carrito */
+#carritoLista .row {
+    background-color: #f1f5f9;
+}
+.btn-primary {
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+.btn-primary:hover {
+    background-color: #d68910 !important;
+    border-color: #d68910 !important;
+}
+

@@ -1,0 +1,92 @@
+
+{
+  "categorias": [
+    { "id": 1, "nombre": "Patines", "imagen":"https://media.vozpopuli.com/2021/07/15/patines-e1626422826706.jpg" },
+    { "id": 2, "nombre": "Skates","imagen":"https://www.skatedeluxe.com/blog/wp-content/uploads/2023/11/skateboard-completes-at-skatedeluxe.jpg" },
+    { "id": 3, "nombre": "Protecciones","imagen":"https://i5-mx.walmartimages.com/mg/gm/3pp/asr/90ddaf40-14f1-4faf-82c8-0e4c74450a21.7697f7a17828a50ec1edbeefe962dc06.jpeg" }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Patines Triskates FR1 Rojo",
+      "precio": 329.99,
+      "destacado": true,
+      "id_categoria": 1,
+      "imagen": "https://www.tiendapatines.es/11426-home_default_2x/patines-triskates-fr1-3d-310-rojo-adulto.jpg",
+      "descripcion": "Patines Freeskate FR1 310 con chasis 230mm y ruedas de 110mm para patinar por cualquier superficie."
+    },
+    {
+      "id": 2,
+      "nombre": "Patines Freestyle FR Igor Black Special Edition",
+      "precio": 599.99,
+      "destacado": false,
+      "id_categoria": 1,
+      "imagen": "https://www.tiendapatines.es/10623-medium_default_2x/patines-freestyle-fr-igor-black-special-edition-adulto.jpg",
+      "descripcion": " Patines Freestyle moldeado en carbono con revestimiento acolchado integrado y caña de carbono. La mejor elección para Freestyle Slalom de alto rendimiento."
+
+    },
+    {
+      "id": 3,
+      "nombre": "Patines Agresivos Them 909 Clarks Azul Adulto",
+      "precio": 359.99,
+      "destacado": true,
+      "id_categoria": 1,
+      "imagen": "https://www.tiendapatines.es/11916-superlarge_default_2x/patines-agresivos-them-909-clarks-azul-adulto.jpg",
+      "descripcion": "Patines agresivos para acrobacia de gama superior con carcasa reforzada y adaptada para patinaje en skatepark y urbano."
+    },
+      {
+      "id": 4,
+      "nombre": "Skateboard Completo Birdhouse Stage 3 Hawk Skull 2 Chrome Silver Foil 7.75",
+      "precio": 87.99,
+      "destacado": true,
+      "id_categoria": 2,
+      "imagen": "https://www.tiendapatines.es/12065-superlarge_default_2x/skateboard-completo-birdhouse-stage-3-hawk-skull-2-chrome-silver-foil-775.jpg",
+      "descripcion": "Tabla de madera resistente de arce, ruedas duras y ejes de aluminio reforzado para perfeccionar tus trucos de nivel medio alto."
+    },
+    {
+      "id": 5,
+      "nombre": "Tabla Skate Arbor Whiskey Upcycle Multi 7,75",
+      "precio": 47.99,
+      "destacado": false,
+      "id_categoria": 2,
+      "imagen": "https://www.tiendapatines.es/13679-superlarge_default_2x/tabla-skate-arbor-whiskey-upcycle-multi-775.jpg",
+      "descripcion": "Tabla skate en madera de arce con serigrafiado sobre fondo amarillo en la base y cubierta efecto madera con serigrafiado Arbor."
+    },
+    {
+      "id": 6,
+      "nombre": "Skateboard Mindless Gothic",
+      "precio": 112.49,
+      "destacado": false,
+      "id_categoria": 2,
+      "imagen": "https://www.tiendapatines.es/11870-superlarge_default_2x/skateboard-mindless-gothic.jpg",
+      "descripcion": "Un Skateboard con características que lo colocan a mitad de camino entre Cruiser y Skate para trucos que pondrá a tu disposición toda la libertad de moverte por donde quieras sin problemas."
+    },
+    {
+      "id": 7,
+      "nombre": "Casco Pro Tec Full Cut Sky Brown Negro Adulto",
+      "precio": 71.99,
+      "destacado": true,
+      "id_categoria": 3,
+      "imagen": "https://www.tiendapatines.es/12024-superlarge_default_2x/casco-pro-tec-full-cut-sky-brown-negro-adulto.jpg",
+      "descripcion": "Casco integral polivalente con correa regulable, protección auditiva y orificios de ventilación en color negro mate con serigrafías en azul."
+    },
+    {
+      "id": 8,
+      "nombre": "Rodilleras Pro-Tec Sky Brown de Carcasa Reemplazable",
+      "precio": 83.99,
+      "destacado": false,
+      "id_categoria": 3,
+      "imagen": "https://www.tiendapatines.es/16635-superlarge_default_2x/rodilleras-pro-tec-sky-brown-de-carcasa-reemplazable.jpg",
+      "descripcion": "Bandas anti deslizantes y tiras de fijación con velcro por encima y debajo de la rodilla."
+    },
+    {
+      "id": 9,
+      "nombre": "Muñequeras Guante Seba Pro Adulto",
+      "precio": 34.99,
+      "destacado": true,
+      "id_categoria": 3,
+      "imagen": "https://www.tiendapatines.es/11051-cart_default_2x/munequeras-guante-seba-pro-adulto.jpg",
+      "descripcion": "Las Muñequeras Guante SEBA Pro Adulto ofrecen protección profesional para todo tipo de patinaje."
+    }
+  ]
+}

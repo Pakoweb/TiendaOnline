@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorías - Tienda</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="initCategories()">
+<header class="header mb-4">
+    <div class="logo">Tienda Online</div>
+    <nav class="d-flex align-items-center">
+        <a href="dashboard.html" class="me-2 text-light text-decoration-none">Inicio</a>
+        <a href="categories.html" class="me-2 text-light text-decoration-none active">Categorías</a>
+        <a href="cart.html" class="me-2 text-light text-decoration-none">Carrito</a>
+        <button class="btn btn-dark btn-sm" onclick="logout()">Cerrar sesión</button>
+    </nav>
+</header>
+
+<main class="container">
+    <!-- Listado de categorías -->
+    <section class="mb-4">
+        <h2>Categorías</h2>
+        <div id="listaCategorias" class="row mt-2"></div>
+    </section>
+
+    <!-- Productos de la categoría seleccionada -->
+    <section class="mb-4">
+        
+        <h2 id="tituloProductos">Productos</h2>
+        <div id="listaProductos" class="row mt-2"></div>
+    </section>
+</main>
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
+<script src="js/funciones.js"></script>
+<script src="js/categories.js"></script>
+</body>
+</html>
